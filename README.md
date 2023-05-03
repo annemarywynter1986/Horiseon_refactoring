@@ -1,8 +1,9 @@
 ## HORISEON web application code refactoring 
 This project is designed as an assigment to perform code refactoring for the web application to comply with requirements
-![image](https://user-images.githubusercontent.com/130412307/235824398-7619721d-4f70-4728-b463-ed786b617ea3.png)
-![image](https://user-images.githubusercontent.com/130412307/235824429-e7ca7f2a-50bd-4f00-a58f-bc688970d47c.png)
-![image](https://user-images.githubusercontent.com/130412307/235824450-c093e5ef-2110-4c56-b7c8-aff4a9c23dff.png)
+![image](https://user-images.githubusercontent.com/130412307/235824536-8eb725a6-5fd8-4013-9905-1911e3585326.png)
+![image](https://user-images.githubusercontent.com/130412307/235824585-b7bc2d6b-c478-42f8-8ab0-1c9d4edd7bfc.png)
+![image](https://user-images.githubusercontent.com/130412307/235824632-9f11a29f-d64a-4218-becc-33317e335704.png)
+
 
 
 This application emphasizes the use of html and css to update starter code 
