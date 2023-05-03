@@ -1,4 +1,5 @@
 :root {
+    /* this part is to consolidate repeating code for color and font that is commonly used */
     --defaultwhite: #ffffff;
     --defautlfont: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
 }
@@ -15,6 +16,7 @@ body {
 }
 
 header {
+    /* removed class for a header, included var for default color */
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
@@ -92,12 +94,14 @@ p {
 }
 
 main {
+    /* this is new segment replacing one of the divs as I have divided into header, main, and footer as 3 main parts  */
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
 aside {
+    /* side panel */
     margin-right: 20px;
     padding: 20px;
     /* clear: both; */
@@ -106,26 +110,32 @@ aside {
     height: fit-content;
     font-family: var(--defautlfont);
     background-color:  #2a607c;
+    /* background color was replaced by headers back-ground color to comply with accessibility requirements */
     flex: content;
 
 }
 aside section {
+    /* this is for section of side panel, i have consolidated repeated code by adding var */
     margin-bottom: 32px;
     color: var(--defaultwhite);
 }
 
 aside section h3 {
+    /*  this is for section of side panel for all h3 located in there */
     margin-bottom: 10px;
     text-align: center;
 }
 
 aside section img {
+    /*  this is for section of side panel, consolidating repeating code for all images located in there  */
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
 article {
+    /* article replacing maultiple divs for images on main in blocks such as Search Engine Optimization etc
+    and i have consolidated repeated codes for different divs and also by utilizing var */
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -137,17 +147,21 @@ article {
 
 
 article img {
+      /* article replacing maultiple divs for images on main in blocks such as Search Engine Optimization etc
+        */
     max-width: 300px;
     ;
 }
 
 
 article h2 {
+    /* same article replacing maultiple divs for images on main in blocks such as Search Engine Optimization etc and it applies h2 parameters to all */
     margin-bottom: 20px;
     font-size: 36px;
 }
 
 footer {
+    /* footer is no longer class */
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -155,5 +169,6 @@ footer {
 }
 
 footer h4 {
+    /* now it has h4 accordingly to requirements */
     font-size: 20px;
 }
